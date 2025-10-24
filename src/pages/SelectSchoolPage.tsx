@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SchoolSelector from "../components/SchoolSelector";
+import "../css/SelectSchoolPage.css";
 
 const SelectSchoolPage: React.FC = () => {
     const [selectedSchool, setSelectedSchool] = useState('');
@@ -7,7 +8,7 @@ const SelectSchoolPage: React.FC = () => {
     const schools = ["Bucknell University", "Lehigh University", "Penn State University", "University of Pennsylvania"];
 
     return (
-        <div>
+        <div className="select-school-page">
             <h1>Welcome to ClassLink</h1>
             <SchoolSelector
                 schools={schools}
