@@ -1,0 +1,21 @@
+/* SelectSchoolPage.css */
+.select-school-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #3f3f3f;
+    text-align: center;
+    padding: 1rem;
+}
+
+.select-school-page h1 {
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.select-school-page p {
+    margin-top: 1rem;
+    font-weight: bold;
+}
